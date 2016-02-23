@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eee"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/title_bar"
+        android:gravity="center_vertical" >
+
+       
+        <Button
+            	android:id="@+id/login_reback_btn"
+            	android:layout_width="70dp"
+            	android:layout_height="wrap_content"
+            	android:layout_centerVertical="true"
+            	android:text="返回"
+            	android:textSize="14sp"
+            	android:textColor="#fff"
+            	android:onClick="login_back3"
+           		android:background="@drawable/title_btn_back"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="发布任务"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical" >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="悬赏名："
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/fabu_name"
+                android:layout_width="200px"
+                android:layout_height="wrap_content"
+                android:background="@drawable/login_editbox"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal" >
+
+            <TextView />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="悬赏金额："
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/fabu_money"
+                android:layout_width="200px"
+                android:layout_height="wrap_content"
+                android:background="@drawable/login_editbox"
+                android:minWidth="200px"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal" >
+
+            <TextView />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="内容摘要："
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/fabu_text"
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/login_editbox"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal" >
+
+            <TextView />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="任务结束时间："
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+           
+
+            <EditText
+                android:id="@+id/shijian"
+                android:layout_width="200px"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/login_editbox"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal" >
+
+            <TextView />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="任务类型："
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/xuanze2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/level" />
+
+            <TextView />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_style_green"
+        android:gravity="center"
+        android:text="发布任务"
+        android:onClick="fabu"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="time">
+        <item>1小时</item>
+        <item>5小时</item>
+        <item>24小时</item>
+        <item>1天</item>
+        <item>3天</item>
+        <item>5天</item>
+        <item>1个月</item>
+    </string-array>
+    <string-array name="level">
+        <item>生活类</item>
+        <item>IT类</item>
+        <item>情感类</item>
+        <item>设计类</item>
+        <item>美食类</item>
+        <item>文学类</item>
+        <item>爱情类</item>
+    </string-array>
+</resources>
