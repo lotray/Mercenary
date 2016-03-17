@@ -16,7 +16,7 @@
         android:label="@string/app_name"
         android:theme="@style/Anim_style2" >
         <activity
-            android:name="com.ofu.xuanshang.Appstart"
+            android:name="com.ofu.sixdegrees.activity.Appstart"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,38 +25,38 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.ofu.xuanshang.login"
+            android:name="com.ofu.sixdegrees.activity.login"
             android:theme="@style/Anim_style2" />
         <activity
-            android:name="com.ofu.xuanshang.mainXuanshang"
+            android:name="com.ofu.sixdegrees.activity.mainXuanshang"
             android:theme="@style/Anim_style2" />
         <activity
-            android:name="com.ofu.xuanshang.MainTopRightDialog"
+            android:name="com.ofu.sixdegrees.activity.MainTopRightDialog"
             android:theme="@style/MyDialogStyleTop" />
         <activity
-            android:name="com.ofu.xuanshang.renwu"
+            android:name="com.ofu.sixdegrees.activity.renwu"
             android:theme="@style/Anim_style2" >
         </activity>
         <activity
-            android:name="com.ofu.xuanshang.fabu"
+            android:name="com.ofu.sixdegrees.activity.fabu"
             android:theme="@style/Anim_style2" />
         <activity
-            android:name="com.ofu.xuanshang.wancheng"
+            android:name="com.ofu.sixdegrees.activity.reward"
             android:theme="@style/Anim_style2" />
         <activity
-            android:name="com.ofu.xuanshang.zhuce"
+            android:name="com.ofu.sixdegrees.activity.showreward"
             android:theme="@style/Anim_style2" />
         <activity
-            android:name="com.ofu.xuanshang.welcome"
+            android:name="com.ofu.sixdegrees.activity.showtask"
             android:theme="@style/Anim_style2" />
         <activity
-            android:name="com.ofu.xuanshang.reward"
+            android:name="com.ofu.sixdegrees.activity.wancheng"
             android:theme="@style/Anim_style2" />
-         <activity
-            android:name="com.ofu.xuanshang.showtask"
+        <activity
+            android:name="com.ofu.sixdegrees.activity.welcome"
             android:theme="@style/Anim_style2" />
-          <activity 
-            android:name="com.ofu.xuanshang.showreward"
+        <activity
+            android:name="com.ofu.sixdegrees.activity.zhuce"
             android:theme="@style/Anim_style2" />
     </application>
 
