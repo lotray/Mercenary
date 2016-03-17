@@ -12,11 +12,11 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/shang"
+        android:icon="@drawable/logo"
         android:label="@string/app_name"
         android:theme="@style/Anim_style2" >
         <activity
-            android:name="com.example.xuanshang.Appstart"
+            android:name="com.ofu.xuanshang.Appstart"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,38 +25,38 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".login"
+            android:name="com.ofu.xuanshang.login"
             android:theme="@style/Anim_style2" />
         <activity
-            android:name=".mainXuanshang"
+            android:name="com.ofu.xuanshang.mainXuanshang"
             android:theme="@style/Anim_style2" />
         <activity
-            android:name=".MainTopRightDialog"
+            android:name="com.ofu.xuanshang.MainTopRightDialog"
             android:theme="@style/MyDialogStyleTop" />
         <activity
-            android:name=".renwu"
+            android:name="com.ofu.xuanshang.renwu"
             android:theme="@style/Anim_style2" >
         </activity>
         <activity
-            android:name=".fabu"
+            android:name="com.ofu.xuanshang.fabu"
             android:theme="@style/Anim_style2" />
         <activity
-            android:name=".wancheng"
+            android:name="com.ofu.xuanshang.wancheng"
             android:theme="@style/Anim_style2" />
         <activity
-            android:name=".zhuce"
+            android:name="com.ofu.xuanshang.zhuce"
             android:theme="@style/Anim_style2" />
         <activity
-            android:name=".welcome"
+            android:name="com.ofu.xuanshang.welcome"
             android:theme="@style/Anim_style2" />
         <activity
-            android:name=".reward"
+            android:name="com.ofu.xuanshang.reward"
             android:theme="@style/Anim_style2" />
          <activity
-            android:name=".showtask"
+            android:name="com.ofu.xuanshang.showtask"
             android:theme="@style/Anim_style2" />
           <activity 
-            android:name=".showreward"
+            android:name="com.ofu.xuanshang.showreward"
             android:theme="@style/Anim_style2" />
     </application>
 
